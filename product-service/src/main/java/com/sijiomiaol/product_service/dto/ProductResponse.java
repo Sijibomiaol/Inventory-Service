@@ -13,7 +13,6 @@ import java.util.UUID;
 @NoArgsConstructor
 @Component
 public class ProductResponse {
-    private UUID id;
     private String name;
     private String description;
     private BigDecimal price;
